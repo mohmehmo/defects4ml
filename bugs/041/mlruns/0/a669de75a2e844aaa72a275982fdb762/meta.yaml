@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mmm/PhD/defects4ml/app/data/bugs/041/mlruns/0/a669de75a2e844aaa72a275982fdb762/artifacts
+end_time: 1672242466648
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a669de75a2e844aaa72a275982fdb762
+run_uuid: a669de75a2e844aaa72a275982fdb762
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1672242032005
+status: 3
+tags: []
+user_id: mmm

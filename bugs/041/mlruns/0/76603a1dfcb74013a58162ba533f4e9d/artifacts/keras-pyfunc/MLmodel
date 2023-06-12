@@ -1,0 +1,15 @@
+artifact_path: keras-pyfunc
+flavors:
+  python_function:
+    artifacts:
+      keras-model:
+        path: artifacts/keras-model
+        uri: file:///home/mmm/PhD/defects4ml/app/data/bugs/041/mlruns/0/76603a1dfcb74013a58162ba533f4e9d/artifacts/keras-model
+    cloudpickle_version: 2.2.0
+    env: conda.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.6.15
+model_uuid: 988dc1b496ee42efbeb1c9b98a78a011
+run_id: 76603a1dfcb74013a58162ba533f4e9d
+utc_time_created: '2022-12-28 15:40:27.171840'
