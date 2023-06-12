@@ -11,12 +11,12 @@ def test_buggy():
     run_buggy()
     file = open(file="buggy/result.json", mode='r')
     result = json.load(file)
-    accuracy = result.get('loss')
-    assert accuracy <= 0.1
+    loss = result.get('loss')
+    assert loss <= 0.1
 
 def test_fixed():
     run_fixed()
     file = open(file="fixed/result.json", mode='r')
     result = json.load(file)
-    accuracy = result.get('loss')
-    assert accuracy <= 0.1
+    loss = result.get('loss')
+    assert loss <= 0.1
